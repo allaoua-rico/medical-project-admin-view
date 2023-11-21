@@ -4,10 +4,10 @@ import { createClient } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
 import useSWR from "swr";
 import JUILoadingAutocomplete from "@/components/JUILoadingAutocomplete";
-import SubscriptionCard from "./users_subscriptions/SubscriptionCard";
+import SubscriptionCard from "./SubscriptionCard";
 import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import AddUser from "./users_subscriptions/AddUser";
+import AddUser from "./AddUser";
 import Button from "@mui/joy/Button";
 
 export default function Page() {
